@@ -1,0 +1,8 @@
+{
+    "CheckoutPageLocators": {
+
+       "Show_Cart":".action .showcart"
+        
+
+    }
+}

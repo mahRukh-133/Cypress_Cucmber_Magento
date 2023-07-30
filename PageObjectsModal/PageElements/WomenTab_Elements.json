@@ -2,7 +2,14 @@
     "WomenTabLocators": {
 
         "Women_Tab": "Women",
-        "Top_Text" : "Tops"
+        "Top_Text" : "Tops",
+        "Jacket_Text": ".categories-menu > :nth-child(2) > :nth-child(2) > a",
+        "Jacket_Select":":nth-child(1) > .product-item-info > .photo > .product-image-container > .product-image-wrapper > .product-image-photo",
+        "Size_Option" : "#option-label-size-143-item-168",
+        "Color_Option" : "#option-label-color-93-item-57",
+        "Add_Cart_Btn": "#product-addtocart-button",
+        "Select_Another_Items":".products > :nth-child(4)"
+        
 
     }
 }
