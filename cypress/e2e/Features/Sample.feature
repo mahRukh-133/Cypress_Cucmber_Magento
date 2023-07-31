@@ -14,4 +14,5 @@ Scenario: Items Added to Cart Successfully
   Then Click on Add to Cart Button
   Then I Select Another Item And Add to Cart
   Then Check-out the items
+  Then I reviewed & Payments
  

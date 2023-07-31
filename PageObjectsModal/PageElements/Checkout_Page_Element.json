@@ -1,7 +1,18 @@
 {
     "CheckoutPageLocators": {
 
-       "Show_Cart":".action .showcart"
+       "Show_Cart":".action .showcart",
+       "Email_Text":"#customer-email-fieldset > .required > .control > #customer-email",
+       "First_Name":"[name='shippingAddress.firstname']",
+       "Last_Name":"[name='shippingAddress.lastname']",
+       "Company" : "[name='shippingAddress.company']",
+       "Street" : "input[name='street[0]']",
+       "City" : "[name='shippingAddress.city']",
+       "State": "select.select[name='region_id']",
+       "Postal_Code": "[name='shippingAddress.postcode']",
+       "Phone_Number": "[name='shippingAddress.telephone']",
+       "Check_Box" : ":nth-child(1) > :nth-child(1) > .radio",
+       "Next_Btn" : ".button"
         
 
     }
