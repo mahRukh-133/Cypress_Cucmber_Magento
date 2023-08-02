@@ -2,7 +2,7 @@ Feature: Checkout Journey
  As a user 
  I want to Select Items
  So I can Checkout
-
+@focus 
 Scenario: Items Added to Cart Successfully
   Given I am on Login Page
   Then I Click  on Women Tab 

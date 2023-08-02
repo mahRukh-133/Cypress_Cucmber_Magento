@@ -19,7 +19,7 @@ export class CheckOutPageElements{
     }
 
     Company(){
-        cy.get(CheckOutElementsLocators.CheckoutPageLocators.Company)..click().type('test')
+        cy.get(CheckOutElementsLocators.CheckoutPageLocators.Company).click().type('test')
     }
 
     Street(){
